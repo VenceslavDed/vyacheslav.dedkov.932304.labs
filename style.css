@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+  width: 170px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.button {
+  padding: 0 5px;
+  cursor: pointer;
+}
